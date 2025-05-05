@@ -8,10 +8,11 @@ Streamlit ist ein Werkzeug, mit dem du Python-Code in interaktive Webseiten verw
 ## Was zeigt diese Demo-App?
 In der Datei `app.py` findest du Beispiele und Erklärungen zu:
 
-1. **Text-Elemente**: So kannst du Überschriften, normalen Text und formatierte Texte anzeigen.
-2. **Eingabe-Elemente**: Damit kann der Nutzer z.B. seinen Namen eingeben oder einen Regler verschieben.
-3. **Sidebar**: Eine Seitenleiste für Einstellungen oder Navigation.
-4. **Session State**: So kannst du Werte speichern, die auch nach einer Nutzeraktion erhalten bleiben (z.B. ein Zähler).
+1. **Seiteneinstellungen (`st.set_page_config`)**: Damit kannst du den Namen und das Icon deiner App festlegen. Das sorgt für einen schöneren und professionelleren Auftritt im Browser.
+2. **Text-Elemente**: So kannst du Überschriften, normalen Text und formatierte Texte anzeigen.
+3. **Eingabe-Elemente**: Damit kann der Nutzer z.B. seinen Namen eingeben oder einen Regler verschieben.
+4. **Sidebar**: Eine Seitenleiste für Einstellungen oder Navigation.
+5. **Session State**: So kannst du Werte speichern, die auch nach einer Nutzeraktion erhalten bleiben (z.B. ein Zähler).
 
 ## Wie starte ich die App?
 
