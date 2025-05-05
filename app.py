@@ -31,7 +31,8 @@ with st.sidebar:
             st.session_state.openai_client = None
 
     # Main UI
-    st.header("KI-Asisstent")
+    st.header("KI-Assistent")
+    st.write("Stelle Fragen zu Python und Streamlit.")
 
     # API Key input if not provided via environment variable
     if not st.session_state.api_key_provided:
