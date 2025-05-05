@@ -123,7 +123,8 @@ st.write("Eingabe-Elemente ermöglichen die Interaktion mit Nutzern.")
 with st.echo():
     name = st.text_input("Wie heißt du?")
     age = st.slider("Wie alt bist du?", 0, 100, 25)
-    st.write(f"Hallo, {name}! Du bist {age} Jahre alt.")
+    if name and age:
+        st.write(f"Hallo, {name}! Du bist {age} Jahre alt.")
 
 # 3. Sidebar
 st.header("3. Sidebar")
